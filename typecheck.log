@@ -1,0 +1,14 @@
+
+> arbetslyft@1.0.0 typecheck
+> node node_modules/typescript/bin/tsc --noEmit
+
+src/App.tsx(9,81): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/auth/AuthModal.tsx(6,79): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/common/Footer.tsx(4,56): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/common/LanguageSelector.tsx(4,43): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/components/common/Navbar.tsx(6,76): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.
+src/lib/supabase.ts(3,33): error TS2339: Property 'env' does not exist on type 'ImportMeta'.
+src/lib/supabase.ts(4,37): error TS2339: Property 'env' does not exist on type 'ImportMeta'.
+src/lib/supabase.ts(9,15): error TS2339: Property 'env' does not exist on type 'ImportMeta'.
+src/lib/supabase.ts(9,52): error TS2339: Property 'env' does not exist on type 'ImportMeta'.
+src/pages/LandingPage.tsx(19,8): error TS2307: Cannot find module 'lucide-react' or its corresponding type declarations.

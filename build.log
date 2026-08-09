@@ -1,0 +1,7 @@
+
+> arbetslyft@1.0.0 build
+> node node_modules/typescript/bin/tsc && node node_modules/vite/bin/vite.js build
+
+error TS2688: Cannot find type definition file for 'node'.
+  The file is in the program because:
+    Entry point for implicit type library 'node'
